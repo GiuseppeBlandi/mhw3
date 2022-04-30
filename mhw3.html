@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>TuttoF1</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="api.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+      <header>
+          <h1>TuttoF1</h1>
+          <div>
+            <span id="home">Home</span>
+            <span id="quiz">Quiz</span>
+            <span id="sounds">Ascolta</span>
+            <span id="search">Classifiche</span>
+          </div>
+      </header>
+
+      <section id="paginaIniziale" >
+        <div>
+          <h1>Benvenuto su TuttoF1</h1>
+          <h3>Clicca su un pulsante sopra e scopri cosa puoi fare</h3>
+        </div>
+      </section>
+
+
+    <article id='test' class="hidden">
+
+      <h1>Crea il tuo team e scopri la tua personalità</h1>
+
+      <section class="question-name">
+        <h1>Scegli la macchina:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="one" class="boxes">
+          <img src="images/1_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="one" class="boxes">
+          <img src="./images/1_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="one" class="boxes">
+          <img src="./images/1_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="one" class="boxes">
+          <img src="./images/1_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="one" class="boxes">
+          <img src="./images/1_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="one" class="boxes">
+          <img src="./images/1_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="one" class="boxes">
+          <img src="./images/1_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="one" class="boxes">
+          <img src="./images/1_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="one" class="boxes">
+          <img src="./images/1_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Scegli il 1^ pilota:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="two" class="boxes">
+          <img src="images/2_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="two" class="boxes">
+          <img src="./images/2_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="two" class="boxes">
+          <img src="./images/2_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="two" class="boxes">
+          <img src="./images/2_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="two" class="boxes">
+          <img src="./images/2_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="two" class="boxes">
+          <img src="./images/2_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="two" class="boxes">
+          <img src="./images/2_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="two" class="boxes">
+          <img src="./images/2_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="two" class="boxes">
+          <img src="./images/2_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Scegli il 2^ pilota:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="three" class="boxes">
+          <img src="images/3_1.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="three" class="boxes">
+          <img src="./images/3_2.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="three" class="boxes">
+          <img src="./images/3_3.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="three" class="boxes">
+          <img src="./images/3_4.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="three" class="boxes">
+          <img src="./images/3_5.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="three" class="boxes">
+          <img src="./images/3_6.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="three" class="boxes">
+          <img src="./images/3_7.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="three" class="boxes">
+          <img src="./images/3_8.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="three" class="boxes">
+          <img src="./images/3_9.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section id="results" class="hidden">
+        <h1></h1>
+        <p></p>
+        <div class="button">Ricomincia il quiz</div>
+      </section>
+
+    </article>
+
+      
+    <section id="form1" class="hidden">
+      <form>
+        <select name="tipo" id="seleziona">
+          <option>----</option>
+          <option value="F1theme">Formula 1 theme</option>
+          <option value="SkySportF1">SkySportF1 selection</option>
+        </select>
+      </form>
+      <section id="musica">
+      </section>
+    </section>
+
+
+    <section id="form" class ="hidden">
+      <form >
+        <select name = 'tipo' id='tipo'>
+          <option value='piloti'>Classifica Piloti</option>
+          <option value='costruttori'>Classifica costruttori</option>
+      </select>
+      <br>
+      <br>
+      <span class="insert">Inserisci anno (dal 1950 al corrente)</span>
+    <input type="text" id="pilota">
+    <input type="submit" id="search" value="cerca">
+    </form>
+    <section id="piloti" >
+    </section>
+  </section>
+
+    <div id="spazio" class="push" class="hidden"> </div>
+    <footer>
+      <div>
+        <span>Powered by Giuseppe Blandi</span>
+        <span>Matricola:1000001403</span>
+        <span>Web programming 2022</span>
+      </div>
+    </footer>
+  </body>
+</html>
